@@ -6,6 +6,7 @@ export PATH=/snap/bin:$PATH
 # gh (the git credential helper) needs a writable XDG_RUNTIME_DIR; /run/user/1000 may not exist when
 # the WSL VM is cold-started by the scheduled task.
 export XDG_RUNTIME_DIR=/tmp/ghrt; mkdir -p "$XDG_RUNTIME_DIR"; chmod 700 "$XDG_RUNTIME_DIR"
+export GIT_TERMINAL_PROMPT=0
 OWNER=sdodsley
 REPO=openstack-patch-board
 SRC=/mnt/c/Users/simon/gerrit-dashboard
