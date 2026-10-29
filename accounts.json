@@ -1,0 +1,10 @@
+{
+  "accounts": [
+    {
+      "label": "Simon",
+      "username": "sdodsley",
+      "emails": ["simon@purestorage.com", "simon@everpuredata.com"],
+      "recheck": true
+    }
+  ]
+}
